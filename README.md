@@ -45,3 +45,14 @@ In this repository, you'll find a practical guide to implementing batch updates 
   ```bash
    node index.js
   ```
+
+## Code Explanation
+- index.js: Contains the main logic for scanning the table, constructing transaction items, and performing batch updates.
+- scanTable Function: Retrieves all items from the DynamoDB table, handling pagination.
+- constructTransactItems Function: Prepares update requests for DynamoDB transactions.
+- performBatchUpdate Function: Handles sending batch updates with retry logic.
+
+## Further Reading
+
+- [Medium Article: Efficiently Batch Update DynamoDB Items with Node.js](https://medium.com/@abhaykumarchaudhary3/dynamodb-batch-update-multiple-items-in-a-table-768f64efaa20)
+- [GitHub Repository](https://github.com/abhay321/dynamodb-batch-update)
