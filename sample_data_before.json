@@ -1,0 +1,223 @@
+[
+  {
+    "partitionKey": "student_1",
+    "address": {
+      "state": {
+        "S": "IL"
+      },
+      "city": {
+        "S": "Springfield"
+      },
+      "street": {
+        "S": "123 Elm St"
+      },
+      "postalCode": {
+        "S": "62701"
+      }
+    },
+    "courses": [
+      {
+        "S": "CS101"
+      },
+      {
+        "S": "CS102"
+      },
+      {
+        "S": "CS201"
+      }
+    ],
+    "email": "alice.johnson@example.com",
+    "enrollmentDate": "2022-08-15",
+    "GPA": 3.8,
+    "major": "Computer Science",
+    "name": "Alice Johnson",
+    "previousDegrees": [
+      {
+        "M": {
+          "degree": {
+            "S": "Associate's in Mathematics"
+          },
+          "institution": {
+            "S": "Springfield Community College"
+          },
+          "year": {
+            "S": "2021"
+          }
+        }
+      }
+    ],
+    "sortKey": "student",
+    "status": "Active",
+    "year": "Sophomore"
+  },
+  {
+    "partitionKey": "student_5",
+    "address": {
+      "state": {
+        "S": "FL"
+      },
+      "city": {
+        "S": "Woodland"
+      },
+      "street": {
+        "S": "654 Cedar St"
+      },
+      "postalCode": {
+        "S": "33101"
+      }
+    },
+    "courses": [
+      {
+        "S": "CHEM101"
+      },
+      {
+        "S": "CHEM102"
+      }
+    ],
+    "email": "evan.wilson@example.com",
+    "enrollmentDate": "2021-08-15",
+    "GPA": 3.7,
+    "major": "Chemistry",
+    "name": "Evan Wilson",
+    "previousDegrees": [
+      {
+        "M": {
+          "degree": {
+            "S": "Associate's in Organic Chemistry"
+          },
+          "institution": {
+            "S": "Florida State College"
+          },
+          "year": {
+            "S": "2021"
+          }
+        }
+      }
+    ],
+    "sortKey": "student",
+    "status": "Active",
+    "year": "Junior"
+  },
+  {
+    "partitionKey": "student_2",
+    "address": {
+      "state": {
+        "S": "NE"
+      },
+      "city": {
+        "S": "Lincoln"
+      },
+      "street": {
+        "S": "456 Oak St"
+      },
+      "postalCode": {
+        "S": "68501"
+      }
+    },
+    "courses": [
+      {
+        "S": "MATH101"
+      },
+      {
+        "S": "MATH102"
+      },
+      {
+        "S": "MATH201"
+      }
+    ],
+    "email": "bob.smith@example.com",
+    "enrollmentDate": "2021-08-15",
+    "GPA": 3.5,
+    "major": "Mathematics",
+    "name": "Bob Smith",
+    "previousDegrees": [
+      {
+        "M": {
+          "degree": {
+            "S": "Certificate in Statistics"
+          },
+          "institution": {
+            "S": "Lincoln Technical Institute"
+          },
+          "year": {
+            "S": "2020"
+          }
+        }
+      }
+    ],
+    "sortKey": "student",
+    "status": "Active",
+    "year": "Junior"
+  },
+  {
+    "partitionKey": "student_4",
+    "address": {
+      "state": {
+        "S": "TX"
+      },
+      "city": {
+        "S": "Greenfield"
+      },
+      "street": {
+        "S": "321 Maple St"
+      },
+      "postalCode": {
+        "S": "75001"
+      }
+    },
+    "courses": [
+      {
+        "S": "BIO101"
+      },
+      {
+        "S": "BIO102"
+      }
+    ],
+    "email": "diana.lee@example.com",
+    "enrollmentDate": "2023-08-15",
+    "GPA": 3.6,
+    "major": "Biology",
+    "name": "Diana Lee",
+    "previousDegrees": [],
+    "sortKey": "student",
+    "status": "Active",
+    "year": "Freshman"
+  },
+  {
+    "partitionKey": "student_3",
+    "address": {
+      "state": {
+        "S": "CA"
+      },
+      "city": {
+        "S": "Oakville"
+      },
+      "street": {
+        "S": "789 Pine St"
+      },
+      "postalCode": {
+        "S": "90001"
+      }
+    },
+    "courses": [
+      {
+        "S": "PHYS101"
+      },
+      {
+        "S": "PHYS102"
+      },
+      {
+        "S": "PHYS201"
+      }
+    ],
+    "email": "charlie.davis@example.com",
+    "enrollmentDate": "2019-08-15",
+    "GPA": 3.9,
+    "major": "Physics",
+    "name": "Charlie Davis",
+    "previousDegrees": [],
+    "sortKey": "student",
+    "status": "Active",
+    "year": "Senior"
+  }
+]
